@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Auto Slider</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- link swiper -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <section class ="home">
+        <div class="container swiper">
+            <div class="wrapper swiper-wrapper">
+                <div class="slide swiper-slide">
+                    <div class="content">
+                        <span>Meat Chef</span>
+                        <h3>Crab size shashlyk</h3>
+                        <p>Just yesterday he was running through the meadows.  And now it costs only $10.99
+                        </p>
+                        <a href="#" class="btn">Fast delivery</a>
+                        <div class="img">
+                            <img src="img/1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slide swiper-slide">
+                    <div class="content">
+                        <span>Meat Chef</span>
+                        <h3>Berry pancakes</h3>
+                        <p>berry pancakes, eat, eat, eat - and it is delicious every time -3$
+                        </p>
+                        <a href="#" class="btn">Fast delivery</a>
+                        <div class="img">
+                            <img src="img/2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slide swiper-slide">
+                    <div class="content">
+                        <span>Meat Chef</span>
+                        <h3>Olive Pizza</h3>
+                        <p>It's just regular delicious pizza. And no more is needed. 5$
+                        </p>
+                        <a href="#" class="btn">Fast delivery</a>
+                        <div class="img">
+                            <img src="img/3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slide swiper-slide">
+                    <div class="content">
+                        <span>Meat Chef</span>
+                        <h3>Pellmens</h3>
+                        <p>Traditional Russian food - 7$
+                        </p>
+                        <a href="#" class="btn">Fast delivery</a>
+                        <div class="img">
+                            <img src="img/4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slide swiper-slide">
+                    <div class="content">
+                        <span>Meat Chef</span>
+                        <h3>Burges</h3>
+                        <p>set of jaw destroyers. No one will eat them alone, right? $29
+                        </p>
+                        <a href="#" class="btn">Fast delivery</a>
+                        <div class="img">
+                            <img src="img/5jpg.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slide swiper-slide">
+                    <div class="content">
+                        <span>Meat Chef</span>
+                        <h3>Sushi</h3>
+                        <p>Yes, we prepare them too - do not be surprised. $12.99
+                        </p>
+                        <a href="#" class="btn">Fast delivery</a>
+                        <div class="img">
+                            <img src="img/6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    
+    </section> 
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".container", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 5500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      loop:true,
+    });
+  </script>
+</body>
+</html>                         
